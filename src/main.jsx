@@ -3,7 +3,7 @@ import './index.css'
 import App from './RootLayout.jsx'
 import {QueryClient , QueryClientProvider} from '@tanstack/react-query'
 import { RouterProvider , createRouter } from '@tanstack/react-router'
-import {routeTree} from './routing/RouteTree.js'
+import {routeTree} from './routing/routeTree.js'
 import { Provider } from 'react-redux'
 import store from './store/store.js'
 
